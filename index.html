@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<title>sunyoungNotes</title>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
-<!-- 전화, 주소, 이메일 자동 링크 없앨 때 -->
-<!--<meta name="format-detection" content="telephone=no, address=no, email=no" />-->
-<!-- 기본 포맷 삭제 -->
-<!--<meta name="format-detection" content="no" />-->
-<meta name="title"  property="og:title" content="sunyoungNotes">
-<meta name="images" property="og:image" content="">
-<meta name="description" property="og:description" content="sunyoungNotes">
-<meta name="type" property="og:type" content="article">
+	<title>sunyoungNotes</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+	<!-- 전화, 주소, 이메일 자동 링크 없앨 때 -->
+	<!--<meta name="format-detection" content="telephone=no, address=no, email=no" />-->
+	<!-- 기본 포맷 삭제 -->
+	<!--<meta name="format-detection" content="no" />-->
+	<meta name="title"  property="og:title" content="sunyoungNotes">
+	<meta name="images" property="og:image" content="">
+	<meta name="description" property="og:description" content="sunyoungNotes">
+	<meta name="type" property="og:type" content="article">
 
-<link rel="stylesheet" type="text/css" href="./css/ui.css">
+	<link rel="stylesheet" type="text/css" href="./css/ui.css">
 </head>
 <body>
 	<section id="wrap">
@@ -23,7 +23,7 @@
 			<strong class="logo_box"><img src="./images/horizontal_on_white_by_logaster.png" alt="sunyoungNotes"></strong>
 			<nav>
 				<ul>
-					<li data-rol="menu1"><a href="#">About</a></li>					
+					<li data-rol="menu1"><a href="#">About</a></li>
 					<li data-rol="menu2"><a href="#">프로젝트</a></li>
 					<li data-rol="menu3"><a href="#">FAQ</a></li>
 					<li data-rol="menu4"><a href="#">Contact Us</a></li>
@@ -34,20 +34,132 @@
 			<section id="menu1" class="content">
 				<h2>About</h2>
 				<div class="conbox">
-					<section class="content_wrap"></section>
-				</div>				
+					<section class="content_wrap">
+						<h3 class="pargrph_tit">sunyoungNotes</h3>
+						<div class="pargrph">
+							<div class="text_box">
+								<h4>Introduce</h4>
+								<p> 1) 어떤 경력이나 경험을 가졌고, 일적인 관심사가 무엇인지 위주의,,<br />
+									2) 내가 어떤 개발자인지를 요약해서,,
+								</p>
+							</div>
+							<div class="text_box">
+								<h4>Skill</h4>
+								<p> Front-End: HTML, CSS, JavaScript, JQuery, Vue.js, GitHub<br />
+									Back-End: Java, Spring Boot, JSP, Servlet<br />
+									Database: MySQL, Oracle, MariaDB, H2
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
 			</section>
 			<section id="menu2" class="content">
 				<h2>프로젝트</h2>
-				<div class="conbox"></div>
+				<div class="conbox">
+					<section class="content_wrap">
+						<h3>프로젝트 상세내용</h3>
+						<!-- 프로젝트 상세 정보 -->
+						<div class="pj_detail">
+							<article class="monitor_pj">
+								<div class="detail_content">
+									<div class="img_pj">
+										<img src="./images/스크린샷(61)_vue-todo.png" alt="vue-todo_pj">
+									</div>
+									<section class="pj_description">
+										<h4>vue-todo</h4>
+										<ul class="bullet_list">
+											<li><em>작업 기간 </em>7일</li>
+											<li><em>인력 구성 </em>3명</li>
+											<li><em>목적 </em>사이드 프로젝트로 Vue.js 사용 경험 및 숙련도 향상을 위해</li>
+											<li><em>프로젝트 내용 </em>하루 할일을 체크해 루틴을 지키는 서비스</li>
+											<li><em>주요업무 </em>CRuD 작업</li>
+											<li><em>사용언어 </em>HTML, CSS, Vue.js</li>
+											<li><em>참고자료 </em>Github 링크</li>
+										</ul>
+										<p class="point_text">
+											<strong>비전공자도 컴맹도 아무 것도 몰라도 <br />이 코드 소스 하나로 OK!</strong>
+											책 소스로 공부하면, 문법부터 Vue.js 활용까지 한번에 배웠습니다.
+										</p>
+									</section>
+								</div>
+							</article>
+						</div>
+						<!-- 프로젝트 목록 -->
+						<div class="pj_rollwrap">
+							<button class="roll_left"></button>
+							<button class="roll_right"></button>
+							<div class="pj_roll">
+								<ul>
+									<li><img src="./images/스크린샷(70)_heropy-coffee.png" alt="클론코딩_heropy-coffee"></li>
+									<li><img src="./images/스크린샷(71)_doors.png" alt="클론코딩_doors"></li>
+									<li><img src="" alt="스프링 부트_fileupload"></li>
+								</ul>
+							</div>
+						</div>
+					</section>					
+				</div>
 			</section>
 			<section id="menu3" class="content">
 				<h2>FAQ</h2>
-				<div class="conbox"></div>
+				<div class="conbox">
+					<section class="content_wrap">
+						<h3 class="tit_faq">
+							<strong>자주 묻는 질문</strong>
+							<span>자주 묻는 질문을 모았습니다.</span>
+						</h3>
+						<div class="accordio_box">
+							<ol>
+								<li class="on">
+									<h4><span>Q1</span>코드 소스는 볼 수 있나요?</h4>
+									<p><a href="https://github.com/sunyoungNotes" target="_blank">깃헙/sunyoungNotes</a>에서 볼 수 있어요.</p>
+								</li>
+								<li>
+									<h4><span>Q2</span>동영상 자료가 있나요?</h4>
+									<p><a href="#" target="_blank"></a>블로그/sunyoungNotes에서 볼 수 있어요.</p>
+								</li>
+								<li>
+									<h4><span>Q3</span>문의사항은 어디에 남기면 되나요?</h4>
+									<p>메뉴의 Contact Us 페이지에서 보낼 수 있어요.</p>
+								</li>
+							</ol>
+						</div>
+					</section>
+				</div>
 			</section>
 			<section id="menu4" class="content">
 				<h2>Contact Us</h2>
-				<div class="conbox"></div>
+				<div class="conbox">
+					<section class="content_wrap">
+						<h3 class="form_tit">지금 sunyoungNotes에 물어보세요!!</h3>
+						<form action="" class="gform" method="post" name="contactus">
+							<fieldset>
+								<legend>Contact Us</legend>
+								<div class="formlist">
+									<ul>
+										<li>
+											<label for="name">이름<sup>*</sup></label>
+											<span class="inputbox"><input type="text" id="name" name="name" required placeholder="이름을 입력해 주세요." /></span>
+										</li>
+										<li>
+											<label for="email">답변 받을 이메일<sup>*</sup></label>
+											<span class="inputbox"><input type="email" id="email" name="email" required placeholder="sample@mail.com" /></span>
+										</li>
+										<li>
+											<label for="message">문의내용<sup>*</sup></label>
+											<span class="textbox">
+												<textarea name="message" id="message" required placeholder="궁금한 사항을 작성해 주세요."></textarea>
+											</span>
+										</li>
+									</ul>
+									<div class="btn_box">
+										<button type="submit" class="commbtn gray">문의하기</button>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</section>
+				</div>
 			</section>
 		</section>
 		<footer>
@@ -57,7 +169,7 @@
 			<a href="#" class="twit" title="트위터로 이동"></a>
 			<a href="#" class="instar" title="인스타그램으로 이동"></a>
 		</footer>
-	</section>	
+	</section>
 
 	<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="./js/ui.js"></script>
