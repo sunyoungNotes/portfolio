@@ -36,4 +36,8 @@ $(document).ready(function(){
         $(".accordio_box ol li").removeClass("on");
         $(this).addClass("on");
     });
+    // 팝업 닫기
+    $(".close").click(function() {
+        $(".thankyou_message").css("display", "none");
+    });
 });
